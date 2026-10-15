@@ -16,7 +16,7 @@ services:
   backend:
     image: ramakrishna7733/docker-git-actions-backend:latest
     container_name: docker-springboot
-    ports:
+    ports:  
       - "2025:2000"
     depends_on:
       - postgresdb
